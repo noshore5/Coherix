@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-from wavelet_utils import pull_data, workflow  # reuse your existing functions
+from Coherix.utils.wavelet_utils import pull_data, workflow  # reuse your existing functions
 
 # -- API Key --
 API_KEY = 'jjeryxeZXNkBhTEQF0SDj8uBBI_N1dBM'

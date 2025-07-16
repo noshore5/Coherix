@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from wavelet_utils import pull_data, workflow, API_KEY
+from utils.wavelet_utils import pull_data, workflow, API_KEY
 
 app = Flask(__name__)
 
