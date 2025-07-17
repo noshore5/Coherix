@@ -2,8 +2,10 @@
 FROM python:3.11-slim
 
 # Set environment variables to reduce prompts and enable unbuffered output
-ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONPATH=/app
+
 
 # Set working directory
 WORKDIR /app
