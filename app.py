@@ -1,6 +1,9 @@
 from flask import Flask, render_template, request
-from utils.wavelet_utils import pull_data, workflow, API_KEY
 
+try:
+    from utils.wavelet_utils import pull_data, workflow, API_KEY
+except ImportError:
+    from Coherix.utils.wavelet_utils import pull_data, workflow, API_KEY
 app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
