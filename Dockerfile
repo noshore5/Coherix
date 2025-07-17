@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y \
     libatlas-base-dev \
     libjpeg-dev \
     libpng-dev \
+    libfftw3-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
