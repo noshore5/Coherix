@@ -12,8 +12,8 @@ def index():
     error = None
     stocks_close_img = None
     if request.method == 'POST':
-        ticker1 = request.form['ticker1']
-        ticker2 = request.form['ticker2']
+        ticker1 = request.form['ticker1'].upper()
+        ticker2 = request.form['ticker2'].upper()
         try:
             max_period = 125
             min_period = 8

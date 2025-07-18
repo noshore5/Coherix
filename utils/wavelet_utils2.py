@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from scipy.ndimage import gaussian_filter
 import fcwt
 
-plt.rcParams['font.family'] = ['Segoe UI', 'Arial', 'sans-serif']
+plt.rcParams['font.family'] = ['sans-serif']
 plt.rcParams['figure.facecolor'] = '#181818'
 plt.rcParams['axes.facecolor'] = '#232323'
 plt.rcParams['axes.edgecolor'] = '#f0f0f0'
